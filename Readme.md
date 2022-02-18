@@ -2,13 +2,19 @@
 # Welcome!
 
 This is a packer template for a base install of ESXi 6.7 using vsphere.  
-This can conme in handy for creating VMs running ESXi for testing purposes.
+This can come in handy for creating VMs running ESXi for testing purposes.
+
+## What does it do exactly?
+
+Running this template will build an ESXi machine in your vSphere instance and convert it to a template upon completion.  
+Then you can easily deploy as many VMs as needed for testing from this template.
 
 ## Requirements
 
 - Packer (https://www.packer.io/downloads)
 - A vSphere environment
 - ESXi 6.7 ISO downloaded and placed into existing vSphere environment
+    - https://customerconnect.vmware.com/downloads/details?downloadGroup=ESXI67U3B&productId=742&rPId=84000
 
 ## How to use this template
 
